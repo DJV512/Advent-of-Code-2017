@@ -65,7 +65,7 @@ def part1(data):
     
 
 def part2(data, cycle_state):
-    print(data)
+    debug_print(data)
     mutable_data = deepcopy(data)
     length = len(mutable_data)
     data_state = "-".join([str(x) for x in mutable_data])
