@@ -99,8 +99,7 @@ def part1(firewall):
             
             severity += me_location * firewall[me_location]
 
-        time.sleep(0.3)
-        draw_state(firewall, scan_locations, me_location, max_depth, max_range)
+        # draw_state(firewall, scan_locations, me_location, max_depth, max_range)
         
         for layer in scan_locations:
             if scan_locations[layer][1]:
@@ -112,8 +111,7 @@ def part1(firewall):
                 if scan_locations[layer][0] == 0:
                     scan_locations[layer][1] = True
         
-        time.sleep(0.3)
-        draw_state(firewall, scan_locations, me_location, max_depth, max_range)
+        # draw_state(firewall, scan_locations, me_location, max_depth, max_range)
 
     return severity
 
