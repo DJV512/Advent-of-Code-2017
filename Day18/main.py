@@ -29,7 +29,7 @@ def main():
     print("---------------------------------------------------")
 
 
-output = True  # Toggle this flag to enable/disable prints
+output = False  # Toggle this flag to enable/disable prints
 def debug_print(*args, **kwargs):
     if output:
         print(*args, **kwargs)
