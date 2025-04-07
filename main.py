@@ -38,7 +38,7 @@ def parse_data():
     with open(FILENAME, "r") as f:
         data = f.readlines()
 
-    # return utils.grid_parse(data)
+    # return utils.grid_parse_list(data)
 
     return data
 
